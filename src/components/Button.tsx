@@ -2,7 +2,7 @@ import React, { ComponentProps } from "react";
 import { variantProps, cva } from "class-variance-authority";
 
 const buttonStyles = cva(["transition-colors"], {
-  variants: {},
+  variants: {}, 
   defaultVariants: {},
 });
 
