@@ -1,7 +1,11 @@
+import Pageheader from "./layouts/Pageheader";
+
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <Pageheader />
+      </div>
     </>
   );
 }
