@@ -2,7 +2,7 @@ import { ArrowLeft, Bell, Menu, Mic, Search, Upload, User } from "lucide-react";
 import FarmTube from "../assets/FarmTube.png";
 import { Button } from "../components/Button";
 import { useState } from "react";
-import useSidebarContext from "../contexts/SidebarContext";
+import { useSidebarContext } from "../contexts/SidebarContext";
 
 export default function PageHeader() {
   const [showFullWidthSearch, setShowFullWidthSearch] = useState(false);
@@ -89,9 +89,8 @@ export function PageHeaderFirstSection({
         <Menu />
       </Button>
       <a href="/">
-        <img src={FarmTube} className="h-10" />
+        <img src={FarmTube} className="h-6" />
       </a>
     </div>
   );
-  
 }
