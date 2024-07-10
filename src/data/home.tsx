@@ -19,7 +19,7 @@ export const categories = [
 export const videos = [
   {
     id: "1",
-    title: "CSS Anchor Is The Best New CSS Feature Since Flexbox",
+    title: "CSS Anchor Is The Best New CSS Feature Since Flexbox ",
     channel: {
       name: "Web Dev Simplified",
       id: "WebDevSimplified",
