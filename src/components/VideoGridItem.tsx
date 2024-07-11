@@ -54,7 +54,7 @@ export function VideoGridItem({
       <a href={`/watch?v=${id}`} className="relative aspect-video">
         <img
           src={thumbnailUrl}
-          className={`block w-full h-full object-cover transition-[border-radius] duration-200 ${
+          className={`block w-full h-60 object-cover transition-[border-radius] duration-200 ${
             isVideoPlaying ? "rounded-none" : "rounded-xl"
           }`}
         />

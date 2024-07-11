@@ -1,148 +1,118 @@
 export const categories = [
   "All",
-  "JavaScript",
-  "TypeScript",
-  "Programming",
-  "Weight Lifting",
-  "Bowling",
-  "Hiking",
-  "React",
-  "Next.js",
-  "Functional Programming",
-  "Object Oriented Programming",
-  "Frontend Web Development",
-  "Backend Web Development",
-  "Web Development",
-  "Coding",
+  "Agriculture",
+  "Farming",
+  "Organic Farming",
+  "Banana Farming",
+  "Rice",
+  "Forest",
+  "Fruits",
+  "Lemon",
+  "Annadata",
+  "Farming in India",
+  "Farming machines",
+  "Multilayer Farming",
 ];
 
 export const videos = [
   {
     id: "1",
-    title: "CSS Anchor Is The Best New CSS Feature Since Flexbox ",
+    title: "AGRICULTURE IN INDIA - Documentary",
     channel: {
-      name: "Web Dev Simplified",
-      id: "WebDevSimplified",
+      name: "Discover Agriculture",
+      id: "DiscoverAgriculture",
       profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj",
+        "https://yt3.googleusercontent.com/WDGAN_y0Rjw_a3adaAAaSw-y3NK4IXGkpw-3JT0YUs8EYnVbdnsRtN27QvTWx8o-bbne6Mf_IQ=s160-c-k-c0x00ffffff-no-rj",
     },
     views: 222536,
     postedAt: new Date("2023-08-29"),
     duration: 938,
-    thumbnailUrl: "https://i.ytimg.com/vi/B4Y9Ed4lLAI/maxresdefault.jpg",
+    thumbnailUrl:
+      "https://static.theprint.in/wp-content/uploads/2022/07/RicePTI-696x392.jpg?compress=true&quality=80&w=800&dpr=1.3",
     videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "https://www.youtube.com/watch?v=W3P9deLFkk8&ab_channel=DiscoverAgriculture",
   },
   {
-    id: "2",
-    title: "NEW Way To Create Variables In JavaScript",
+    id: "9",
+    title: "Modern Farming Techniques for High Yield",
     channel: {
-      name: "Web Dev Simplified",
-      id: "WebDevSimplified",
+      name: "Farming Life",
+      id: "FarmingLife",
       profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj",
+        "https://yt3.googleusercontent.com/9ptRzrLhsFFmD84l4jpE8sfmJFbkcEouGExiDrXTN8bmoULgnDmhrWFniKA96iUy8qcrWZOz1w=s160-c-k-c0x00ffffff-no-rj",
     },
-    views: 257136,
-    postedAt: new Date("2023-08-22"),
-    duration: 732,
-    thumbnailUrl: "https://i.ytimg.com/vi/d6a8RymS1zI/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    views: 351024,
+    postedAt: new Date("2023-05-12"),
+    duration: 840,
+    thumbnailUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQliUqA1XbWi8dNPWzqsAI6LaYaSprV0CXakQ&s",
+    videoUrl: "https://www.youtube.com/watch?v=OzGudoy7keA&ab_channel=NoalFarm",
   },
   {
-    id: "3",
-    title: "Front-end developer takes on a CSS battle",
+    id: "10",
+    title: "Organic Farming: A Complete Guide",
     channel: {
-      name: "Kevin Powell",
-      id: "KevinPowell",
+      name: "AgriTech",
+      id: "AgriTech",
       profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj",
+        "https://yt3.googleusercontent.com/zmkJVUDhD1ekm1qg2iyQsu9_dxTAlPJ9T7Dd6XXGBv6OVr5iynu_Oqp1ITl-gLKtOGhP62vjDw=s160-c-k-c0x00ffffff-no-rj",
     },
-    views: 1232300,
-    postedAt: new Date("2023-10-05"),
-    duration: 120,
-    thumbnailUrl: "https://i.ytimg.com/vi/eYPyIq5Y3Rk/maxresdefault.jpg",
+    views: 458020,
+    postedAt: new Date("2023-03-08"),
+    duration: 1260,
+    thumbnailUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZkfgjhGReLul8tC7p8UA3Wb0qzqsAr1fm9A&s",
     videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "https://www.youtube.com/watch?v=zo6a12sdH4s&ab_channel=AgriTechTelugu",
   },
   {
-    id: "4",
-    title: "Quick guide to CSS focus states",
+    id: "11",
+    title: "Hydroponics Farming at Home",
     channel: {
-      name: "Kevin Powell",
-      id: "KevinPowell",
+      name: "Nature Tech",
+      id: "NatureTech",
       profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj",
+        "https://yt3.googleusercontent.com/Q-zvBqyMzXaJZWM8yyw7R_0IFDa9UlgbK5En4yIHTfe5EZiMGxpxrbhxmQVnV1mK0Z7KTy1XZg=s160-c-k-c0x00ffffff-no-rj",
     },
-    views: 112,
-    postedAt: new Date("2023-9-19"),
-    duration: 4343,
-    thumbnailUrl: "https://i.ytimg.com/vi/apdD69J4bEc/maxresdefault.jpg",
+    views: 750320,
+    postedAt: new Date("2023-06-14"),
+    duration: 960,
+    thumbnailUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xHzoS1jcuxpWohhKXRoZNzY0jPQlq2rH4w&s",
     videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "https://www.youtube.com/watch?v=tWgDqBryR30&ab_channel=NTHydroponics",
   },
   {
-    id: "5",
-    title: "I Cannot Believe React Made A Hook For This",
+    id: "12",
+    title: "Top 10 Farming Innovations",
     channel: {
-      name: "Web Dev Simplified",
-      id: "WebDevSimplified",
+      name: "Tech Zone",
+      id: "TechZone",
       profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj",
+        "https://yt3.googleusercontent.com/CMQttN-aJSvE6WT1E1u_TFTgYh_8syeSx237Zf-W9ZxkDyP_d5lUkqwDC2lj3YgYjYtzux4rD9g=s160-c-k-c0x00ffffff-no-rj",
     },
-    views: 42345,
-    postedAt: new Date("2023-03-02"),
-    duration: 1000,
-    thumbnailUrl: "https://i.ytimg.com/vi/M3mGY0pgFk0/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    views: 1203456,
+    postedAt: new Date("2023-04-21"),
+    duration: 1320,
+    thumbnailUrl:
+      "https://mazeros.com/wp-content/uploads/2022/04/farm-innovations.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=r_YGlKihHtk&ab_channel=TechZone",
   },
   {
-    id: "6",
-    title: "I Got Laid Off...",
+    id: "13",
+    title: "Sustainable Farming Practices",
     channel: {
-      name: "Caleb Curry",
-      id: "CalebCurry",
+      name: "Eco Farm",
+      id: "EcoFarm",
       profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj",
+        "https://yt3.googleusercontent.com/ytc/AIdro_nsvJWrFEUCMiXmF8AFyiav2p5eNgDkFr_9_izZuqRWAw=s160-c-k-c0x00ffffff-no-rj",
     },
-    views: 10340,
-    postedAt: new Date("2023-03-03"),
-    duration: 54,
-    thumbnailUrl: "https://i.ytimg.com/vi/i2JVQdLnkAY/maxresdefault.jpg",
+    views: 332154,
+    postedAt: new Date("2023-07-10"),
+    duration: 1100,
+    thumbnailUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSh-e0CEs1IlJXhyFJ-sbI8XnHqqcMD1-d-Q&s",
     videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-  },
-  {
-    id: "7",
-    title: "Tails OS in 100 Seconds",
-    channel: {
-      name: "Fireship",
-      id: "Fireship",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
-    },
-    views: 10323340,
-    postedAt: new Date("2023-08-09"),
-    duration: 100,
-    thumbnailUrl: "https://i.ytimg.com/vi/mVKAyw0xqxw/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-  },
-  {
-    id: "8",
-    title: "Zig in 100 Seconds",
-    channel: {
-      name: "Fireship",
-      id: "Fireship",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
-    },
-    views: 20323340,
-    postedAt: new Date("2023-09-09"),
-    duration: 105,
-    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "https://www.youtube.com/watch?v=mGKqbuGKmts&ab_channel=AgricultureandTechnology",
   },
 ];

@@ -89,7 +89,7 @@ export function PageHeaderFirstSection({
         <Menu />
       </Button>
       <a href="/">
-        <img src={FarmTube} className="h-6" />
+        <img src={FarmTube} className="h-10 w-12" />
       </a>
     </div>
   );
