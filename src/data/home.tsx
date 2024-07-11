@@ -10,7 +10,7 @@ export const categories = [
   "Lemon",
   "Annadata",
   "Farming in India",
-  "Farming machines",
+  "Farming Machines",
   "Multilayer Farming",
 ];
 
