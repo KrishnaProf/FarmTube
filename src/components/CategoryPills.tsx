@@ -1,7 +1,7 @@
 import {ChevronLeft, ChevronRight} from "lucide-react";
 import { Button} from "./Button";
-
 import { useEffect, useRef, useState} from "react";
+
 
 type CategoryPillProps = {
   categories: string[];
