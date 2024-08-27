@@ -9,7 +9,7 @@ type CategoryPillProps = {
   onSelect: (category: string) => void;
 };
 
-const TRANSLATE_AMOUNT = 200;
+const TRANSLATE_AMOUNT = 210;
 
 export function CategoryPills({
   categories,
